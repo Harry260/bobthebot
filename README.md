@@ -42,3 +42,6 @@ This also has some awesome small features. This may ask you about saying about j
 Support this product by ⭐Starring this repo
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J16V6AZ)
+
+
+<a href="https://www.producthunt.com/posts/bot-the-bot?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bot-the-bot" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=318567&theme=dark" alt="Bot The Bot - Bot which can understanding your expression with camera! | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
