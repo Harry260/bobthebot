@@ -1,0 +1,43 @@
+{
+    "happy":[
+        "Great!, Im so glad to see you happy!!",
+        "You seem happy to me, so I'm glad to see you!",
+        "I'm glad to see you, because you seem happy to me!",
+        "Seeing you seems to make me happy, because you seem to be happy!",
+        "Your smile makes me happy to see you, since you seem to be happy!"
+    ],
+    "sad":[
+        "Oh, Im sorry to see you sad.",
+        "My sincere apologies for your grief.",
+        "You look sad to me, I'm sorry.",
+        "Seeing you sad makes me sad.",
+        "I'm sorry to see you upset."
+    ],
+    "angry":[
+        "Ooops! I guess you are angry!",
+        "It looks like you're angry!",
+        "Your anger has gotten the better of you!",
+        "Sounds like you're pissed off with anger!",
+        "There seems to be some anger in you!"
+    ],
+    "neutral":[
+        "[getFact]Howdy! Do you want to know a useless fact?",
+        "[getNews]Hey, Do you like to know the top Highlight?",
+        "[getJoke]I want to make you laugh! Lemme say a joke?",
+        "[getCat]How about a cute cat's pic?",
+        "[getDog]I have a lovely dog's pic! do you wanna see?"
+    ],
+    "fearful":[
+        "Oh no! You looks like, you are in fear!"
+    ],
+    "surprised":[
+        "Looks like you are supriced!",
+        "You are surprised, my friend!",
+        "I see that you look surprised!",
+        "That looks like a surprised look on your face!",
+        "There's a surprised look on your face"
+    ],
+    "disguised": [
+        "Your face looks disguised lol!"
+    ]
+}

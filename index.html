@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- // Meta data // -->
+      <!-- Primary Meta Tags -->
+      <title>Bob - A face expression recognition project.</title>
+      <meta name="title" content="Bob - A face expression recognition project.">
+      <meta name="description" content="Bob is a Bot powered by tesorflows's powerful Machine Learning. Just check it out! Created by Harry - Open Source">
+      <link rel="icon" href="src/assets/images/favicon.png" type="image/png" sizes="16x16">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://bobthebot.netlify.app/">
+      <meta property="og:title" content="Bob - A face expression recognition project.">
+      <meta property="og:description" content="Bob is a Bot powered by tesorflows's powerful Machine Learning. Just check it out! Created by Harry - Open Source">
+      <meta property="og:image" content="src/assets/images/banner.png">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="https://bobthebot.netlify.app/">
+      <meta property="twitter:url" content="https://metatags.io/">
+      <meta property="twitter:title" content="Bob - A face expression recognition project.">
+      <meta property="twitter:description" content="Bob is a Bot powered by tesorflows's powerful Machine Learning. Just check it out! Created by Harry - Open Source">
+      <meta property="twitter:image" content="src/assets/images/banner.png">
+
+
+      <!-- // Style sheets and links // -->
+      <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+      <link rel="stylesheet" href="css/app.ui.css" type="text/css" />
+
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="src/plugins/animate.css" type="text/css" />
+   </head>
+
+   <body class="us">
+      <div class="app-header center">
+         <div class="header-inner v-center">
+            <div class="app-favicon">
+               <img src="src/assets/images/fav_grad.png" class="favicon-drop">
+               <div class="drop-down">
+                  <ul class="drop-ui" type="none">
+                     <a href="realtime.html" >                     
+                        <li class="v-center">
+                           <i class="bi-arrow-clockwise"></i>
+                           Restart
+                        </li>
+                     </a>
+                     <a target="_blank" href="about.html">
+                        <li class="v-center">
+                           <i class="bi-shield-shaded"></i>
+                           About
+                        </li>
+                     </a>
+                     <a target="_blank" href="https://github.com/harry260/bobthebot">
+                        <li class="v-center">
+                           <i class="bi-github"></i>
+                           Opensource
+                        </li>
+                     </a>  
+                     <a target="_blank" href="http://harrytom.ml/">
+                        <li class="v-center">
+                           <i class="bi-lightning-fill"></i>
+                           By Harry!
+                        </li>
+                     </a>  
+                  </ul>
+               </div>
+            </div> 
+            <div class="app-favicon v">
+               <a target="_blank" href="https://github.com/harry260/bobthebot">
+                  <img src="src/assets/images/GitHub-Mark-Light-32px.png" alt="">
+               </a>
+            </div> 
+         </div>
+      </div>
+      <div class="app full-size center us">
+         <div class="app-inner center">
+            <div class="success-text">
+               <div class="image-section center">
+                  <img
+                     class="loader-img"
+                     src="src/assets/images/loader.gif"
+                     alt=""
+                  />
+               </div>
+               <div class="text-div h-center">
+                  <h1 class="sentance-hero">initializing..</h1>
+               </div>
+               <div class="center action-cont">
+                  <button class="action-btn">Yeah, Sure!</button>
+               </div>
+            </div>
+
+            <div class="bottom-info h-center">
+               <h1 class="info-text"></h1>
+            </div>
+         </div>
+      </div>
+      <div>
+         <div class="video-wrap">
+            <video autoplay muted class="temp-video"></video>
+         </div>
+      </div>
+      <div class="dynamic-overlay"></div>
+
+      <div class="overlay settings-overlay center">
+        <div class="settings-inner v-center">
+            <div class="setting-content">
+               <div class="close-overlay center interval-set">
+                  <i class="bi-x"></i>
+                </div>
+                <header class="settings-head">
+                  <h1>Setup Bob!</h1>
+                  <p>Set the interval in which you expression should be captured! Set according to your device's capacity. Setting high interval require powerful device.</p>
+                </header>
+                <main class="center setting-main">
+                  <h3 class="range-val range-blue">5000ms</h3>
+                  <input type="range" class="slider" min="100" max="5000" value="1000">
+                  <h3 class="range-val">100ms</h3>
+                </main>
+            </div>
+        </div>
+      </div>
+      <div class="overlay load-overlay center">
+         <div class="load-content">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_JOuuND.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay class="load-img animate__animated animate__bounceIn"></lottie-player>
+            <h1>Waking up bob!</h1>
+         </div>   
+      </div>
+   </body>
+   <script src="src/plugins/jquery.js"></script>
+   <script defer src="src/plugins/face-api.min.js"></script>
+   <script defer src="js/app.js"></script>
+   <script src="js/app.ui.js"></script>
+   <script src="src/plugins/services.js"></script>
+</html>
