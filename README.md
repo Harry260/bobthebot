@@ -19,9 +19,9 @@
 <img src="src/assets/images/banner.png">
 
 ## Getting Started
-To get started, click the [Launch](https://bobthebot.netlify.app/) button above! After it loads, you may see a popup asking you to set interval. This is the interval that the bot will check for your facial expression and precess sentances. If you want performance, you can set less `ms` but it will use high CUP, after setting it Enjoy!
+To get started, click the [Launch](https://bobthebot.netlify.app/) button! After it loads, you may see a popup asking you to set an interval. This is the interval that the bot will check for your facial expression and precess sentences. If you want performance, you can set less ms but it will use high CPU, after setting it Enjoy!
 
-This also have some awesome small features. This may ask you about saying about jokes, cat's picture, dog's picture, and also News! You can see the button when you are nuetral state. When you click that, It will pop it out!
+This also has some awesome small features. This may ask you about saying about jokes, cat's picture, dog's picture, and also News! You can see the button when you are neutral state. When you click that, It will pop it out!
 
 # Proudly made with
   - [Tensorflow](https://www.tensorflow.org/)
